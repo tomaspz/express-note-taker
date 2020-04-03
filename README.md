@@ -1,10 +1,10 @@
 # Node & Express Note Taker
 
-### Application Screenshot
+## Application Screenshot
 
-![App Notes Screenshot]("./public/assets/img/screenshot-express-note-taker.png")
+![App Notes Screenshot](./public/assets/img/screenshot-express-note-taker.png)
 
-### Description
+## Description
 
 This application can be used to write, save, and delete notes. This application uses an [express](https://expressjs.com/) server backend created in [Nodejs](https://nodejs.org/en/). The app saves and retrieves notes in a [JSON](http://json.org/json-en.html) format.
 
@@ -47,7 +47,6 @@ SO THAT I can persist my notes until I do not need them anymore.
 * Application allow users to delete previously saved notes.
 
 - - -
-
 
 ## URL of the deployed application
 
