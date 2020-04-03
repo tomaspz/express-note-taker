@@ -8,13 +8,13 @@
 
 This application can be used to write, save, and delete notes. This application uses an [express](https://expressjs.com/) server backend created in [Nodejs](https://nodejs.org/en/). The app saves and retrieves notes in a [JSON](http://json.org/json-en.html) format.
 
-The application has several routes that you can query:
+The application has several routes that you can query or post:
 
-* The routes `/` and `*` returns `index.html`.
+* The routes `/` and `*` return `index.html`.
 * The route `/notes` returns `notes.html`.
 * The route `/api/notes` returns the notes in json format.
 * The route `/api/notes/:id` returns a note with a specific id.
-* You can also post new notes to the `/api/notes` endpoint.
+* You can also post new notes to the `/api/notes` endpoint, which is done through the `notes.html` file.
 
 The notes posted by the user are saved in a `db.json` file on the backend. This file will store all the notes and will be used to retrieve notes too using the `fs` module ([Node filesystem module](https://nodejs.org/api/fs.html#fs_file_system)).
 
