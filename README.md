@@ -2,7 +2,7 @@
 
 ### Application Screenshot
 
-
+![App Notes Screenshot]("./public/assets/img/screenshot-express-note-taker.png")
 
 ### Description
 
@@ -50,6 +50,8 @@ SO THAT I can persist my notes until I do not need them anymore.
 
 
 ## URL of the deployed application
+
+[Heroku - Express Note Taker](https://express-note-taker-tomaspz.herokuapp.com/)
 
 ## The URL of the GitHub repository
 
