@@ -122,9 +122,6 @@ app.delete("/api/notes/:id", function(req,res){
         res.send("Note successfully deleted!");
       })
 
-      console.log(notes);
-
-      res.status(204).send();
     } else {
       res.status(404);
       return res.send("No notes found!");
